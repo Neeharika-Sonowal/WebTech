@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <center>
+        <h1>Admission Form</h1>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" size="20" placeholder="Enter email" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Enter Password"  required><br><br>
+            <label for="password">Confirm Password:</label>
+            <input type="password" placeholder="Re-enter Password" required><br><br>
+            <p><h4>Personal details:</h4></p>
+            <label for="fname">First Name:</label>
+            <input type="text" placeholder="Type here" required><br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" placeholder="Type here" required><br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" required><br><br>
+            <p>Gender:</p>
+            <div>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br><br>
+            </div>
+            <label for="phoneno">Phone no.:</label>
+            <input type="tel" maxlength="10" required"><br><br>
+            <label for="add">Address:</label>
+            <input type="text" size="50" style="height: 50px;">
+            <p><h4> Course Selection</h4></p>
+            <label for="Honours">Select Honours</label>
+            <select>
+              
+                <option value="cs">Computer Science</option>
+                <option value="it">Information Technology</option>
+             
+            </select><br>
+            <br>
+            <p>Select Electives:<br>(max 3)</p>
+            <input type="checkbox">
+            <label for="maths"> Mathematics</label>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="electronics"> Electronics</label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="statistics"> Statistics</label><br>
+            <input type="checkbox">
+            <label for="english">English</label>
+            <input type="checkbox">
+            <label for="evs">Environmental science</label><br>
+            <br>
+            <input type="submit" value="Submit">      
+            
+        </form>
+        </center>
+    </body>
+</html>
