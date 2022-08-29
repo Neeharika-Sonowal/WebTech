@@ -1,0 +1,67 @@
+body{
+    background-color: #eee2dc;
+    padding:20px;
+}
+h1{
+    font-family:'Georgia',serif;
+    color:#ac3b61;
+}
+.signup{
+    border: 2px solid rgb(243, 159, 123);
+    background-color: #edc7b7;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: brown;
+}
+.pdetails{
+    border: 2px solid saddlebrown;
+    background-color: rosybrown;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-family: 'garamond',serif;
+    color:antiquewhite;
+    font-size: large;
+}
+.h2a{
+    font-family:'georgia',serif;
+    color: rgb(240, 210, 158);
+}
+.cdetails{
+    background-color: darksalmon;
+    border: 2px solid salmon;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    font-family: 'garamond',serif;
+    color:blanchedalmond;
+    font-size: large;
+    padding-left: 20px;
+}
+.h2b{
+    color:rgb(247, 234, 219);
+}
+input{
+    width:80%;
+    height:25px;
+}
+input[type=checkbox],input[type=radio]{
+    width:2%;
+    height:15px;
+}
+input[type=submit] {
+    width:15%;
+    background-color: #a65f7e;
+    color: white;
+    font-size: large;
+    align-items: center;
+    padding: 20px 20px 40px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom:20px;
+}
+select{
+    width:13%;
+    height:30px;
+    border:2px;
+}
